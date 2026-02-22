@@ -1,8 +1,8 @@
-# aerobic
+# circuit
 
-An interval timer app for aerobic exercises built with React.
+An interval timer app for circuit training exercises built with React.
 
-![aerobic-screenshot](./screenshot.png)
+![circuit-screenshot](./screenshot.png)
 
 ### Stack
 

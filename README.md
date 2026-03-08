@@ -6,5 +6,5 @@ An interval timer app for circuit training exercises built with React.
 
 ### Stack
 
-- [Create React App](https://github.com/facebook/create-react-app).
+- [Vite](https://vitejs.dev/).
 - Web Audio API for sound generation.

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Button from "./components/Button";
 import Time from "./components/Time";
-import { ReactComponent as Reset } from "./icons/reset.svg";
-import { ReactComponent as Play } from "./icons/play.svg";
-import { ReactComponent as Pause } from "./icons/pause.svg";
+import Reset from "./icons/reset.svg?react";
+import Play from "./icons/play.svg?react";
+import Pause from "./icons/pause.svg?react";
 import NoSleep from "nosleep.js";
 
 let Timer: NodeJS.Timeout;
@@ -90,8 +90,8 @@ function App() {
     elapsedTime === totalTime - restTime
       ? speak("your timer is complete")
       : rest
-      ? speak("rest")
-      : speak(`exercise ${currentExercise}`);
+        ? speak("rest")
+        : speak(`exercise ${currentExercise}`);
   }
 
   document.querySelector("html")!.style.background = rest
